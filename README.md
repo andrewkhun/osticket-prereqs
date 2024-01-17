@@ -272,14 +272,60 @@ Next click 'Add', then 'Select a principal'. In the textbox, type 'everyone' and
 <img src="https://imgur.com/8k31PH2.png" height="70%" width="70%" alt="Resources"/>
 </p>
 
-<br /><h2>Step 11 - Continue osTicket Setup</h2>
+
+<br /><h2>Step 11 - Download and install HeidiSQL</h2>
+<p>
+Download and install HeidiSQL. Once you have completed the setup wizard for HeidiSQL, the program will open. Select 'New' on the bottom left. Make sure the username is root and the password is 'Password1' then click 'Open'.
+</p>
+<p>
+<img src="https://imgur.com/z6e86F9.png" height="70%" width="70%" alt="Resources"/>
+</p>
+<p>
+<img src="https://imgur.com/9wd9nQQ.png" height="70%" width="70%" alt="Resources"/>
+</p>
+<p>
+Once you have clicked open, a new instance of HeidiSQL will open. Right-click 'Unnamed' and select 'Create new', then 'Database'. Name the new database 'osTicket', then hit 'OK'.
+</p>
+<p>
+<img src="https://imgur.com/21RPVtH.png" height="70%" width="70%" alt="Resources"/>
+</p>
+<p>
+<img src="https://imgur.com/xegg4yM.png" height="35%" width="35%" alt="Resources"/>
+</p>
 
 
-<br /><h2>Step 12 - Download and install HeidiSQL</h2>
+<br /><h2>Step 12 - Finish osTicket Setup</h2>
+<p>
+Once you have completed the HeidiSQL setup, we can now go back to the osTicket webpage and click 'Continue'. Fill out the necessary fields under 'System Settings', 'Admin User', and 'Database Settings'.
+
+ For this lab, the 'Helpdesk Name' is 'Lab Help Desk', and the default email is 'lab<span>@</span>helpdesk.com' 
+
+ Under 'Admin User', input a 'First Name' (i.e. user), 'Last Name' (i.e. admin), 'Email Address' (i.e. user_admin<span>@</span>helpdesk.com), 'Username' (i.e. user_admin), and 'Password' (i.e. Password1). 
+
+ Under 'Database Settings', make sure the 'MySQL Database' name is 'osTicket', the 'MySQL Username' is 'root', and the 'MySQL Password' is 'Password1'.
+
+ Once all the fields have been filled out, click on 'Install Now'.
+</p>
+<p>
+<img src="https://imgur.com/m7DFiwF.png" height="70%" width="70%" alt="Resources"/>
+</p>
+<p>
+Once complete, osTicket should be successfully installed! Congratulations!
+</p>
+<p>
+<img src="https://imgur.com/FEE32n7.png" height="70%" width="70%" alt="Resources"/>
+</p>
 
 
-<br /><h2>Step 13 - Finish osTicket Setup</h2>
+<br /><h2>Step 13 - Clean Up</h2>
+<p>The final step is to do some clean up. Delete the folder 'C:\inetpub\wwwroot\osTicket\setup'. 
+	
+Then set 'Permissions' to "Read" and "Read and Execute" on C:\inetpub\wwwroot\osTicket\include\ost-config.php for 'Everyone':
+- Right-click on 'ost-config.php', click on 'Properties', then the 'Security' tab.
+- Click 'Advanced', then 'Edit' the permissions for 'Everyone'. Uncheck all the boxes except for 'Read & Execute' and 'Read', then click 'OK'.
+</p>
+<p>
+<img src="https://imgur.com/AOWvziF.png" height="70%" width="70%" alt="Resources"/>
+</p>
 
-
-<br /><h2>Step 14 - Clean Up</h2>
 
