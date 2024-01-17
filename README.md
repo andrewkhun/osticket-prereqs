@@ -315,17 +315,27 @@ Once complete, osTicket should be successfully installed! Congratulations!
 <p>
 <img src="https://imgur.com/FEE32n7.png" height="70%" width="70%" alt="Resources"/>
 </p>
-
+<p>
+Notes:
+Browse to your help desk login page: http://localhost/osTicket/scp/login.php  
+End Users osTicket URL: http://localhost/osTicket/ 
+</p>
 
 <br /><h2>Step 13 - Clean Up</h2>
-<p>The final step is to do some clean up. Delete the folder 'C:\inetpub\wwwroot\osTicket\setup'. 
+<p>The final step is to do some cleanup. Delete the folder 'C:\inetpub\wwwroot\osTicket\setup'. 
 	
 Then set 'Permissions' to "Read" and "Read and Execute" on C:\inetpub\wwwroot\osTicket\include\ost-config.php for 'Everyone':
 - Right-click on 'ost-config.php', click on 'Properties', then the 'Security' tab.
 - Click 'Advanced', then 'Edit' the permissions for 'Everyone'. Uncheck all the boxes except for 'Read & Execute' and 'Read', then click 'OK'.
 </p>
 <p>
-<img src="https://imgur.com/AOWvziF.png" height="70%" width="70%" alt="Resources"/>
+<img src="https://imgur.com/i60h0qN.png" height="70%" width="70%" alt="Resources"/>
 </p>
+<p>
+<img src="https://imgur.com/GNQiAkv.png" height="70%" width="70%" alt="Resources"/>
+</p>
+<p>
+This concludes the prerequisite installations for osTicket!
 
-
+To continue exploring osTicket and set up accounts and users, head over to [osTicket: Post-Installation Configuration](https://github.com/andrewkhun/post-install-config)
+</p>
