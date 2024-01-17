@@ -30,26 +30,81 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
+<br /><h2>Step 1 - Create an Azure Virtual Machine and Resource Group</h2>
+<p>The first step is to create an Azure Virtual Machine and Resource Group. Navigate to the Azure Portal and create a Virtual Machine. Ensure you create a new Resource Group and name it accordingly.</p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/uRuN09F.png" height="70%" width="70%" alt="Create Azure Virtual Machine"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://imgur.com/LiZ9WQp.png" height="70%" width="70%" alt="Resources"/>
+</p>
+<p>
+<img src="https://imgur.com/DzckhoM.png" height="70%" width="70%" alt="Resources"/>
+</p>
+<p>
+Set up the virtual machine with Windows 10 Pro, version 22H2. For this particular deployment, we will specify 4 vCPUs and 16 GiB of RAM. Create your login credentials to access the virtual machine. Ensure the licensing box is checked off and that a virtual network has been created in the Networking Tab. After everything has been specified go to 'Review + Create' and create the virtual machine. 
 </p>
 <br />
 
+<br /><h2>Step 2 - Remote Desktop to the Virtual Machine</h2>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Go to the newly created Virtual Machine in the Azure Portal locate the Public IP Address and copy it. On your local machine, open "Remote Desktop Connection" and input the copied IP address. Log in using the credentials set up during the VM creation.
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://imgur.com/Gysrja1.png" height="50%" width="50%" alt="Resources"/>
 </p>
-<br />
+<p>
+<img src="https://imgur.com/1uCVT0n.png" height="50%" width="50%" alt="Resources"/>
+</p>
+<p>
+<img src="https://imgur.com/TXHprkA.png" height="50%" width="50%" alt="Resources"/>
+</p>
 
+<br /><h2>Step 3 - Install / Enable IIS in Windows with CGI and Common HTTP Features</h2>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Once inside the Virtual Machine, open up the control panel and select 'Programs'. From there, select 'Turn Windows Features on and off'. 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://imgur.com/xmOrou5.png" height="70%" width="70%" alt="Resources"/>
 </p>
-<br />
+<p>
+<img src="https://imgur.com/t59Rt51.png" height="70%" width="70%" alt="Resources"/>
+</p>
+<p>
+To install/enable IIS in Windows with CGI and Common HTTP Features, make sure the correct options are selected.
+
+World Wide Web Services -> Application Development Features -> [X] CGI [X] Common HTTP Features
+
+Internet Information Services -> Web Management Tools -> IIS Management Console
+	[X] IIS Management Console
+</p>
+<p>
+<img src="https://imgur.com/WK5LzCC.png" height="50%" width="50%" alt="Resources"/>
+</p>
+<p>
+<img src="https://imgur.com/h83r69D.png" height="50%" width="50%" alt="Resources"/>
+</p>
+<p>
+Once all the correct checkboxes have been selected, click ok to apply the changes. To confirm the changes have been properly applied, open the web browser and type '127.0.0.1' into the search bar and it should present the 'Internet Information Services' page displayed below.
+</p>
+<p>
+<img src="https://imgur.com/XFqN4S9.png" height="70%" width="70%" alt="Resources"/>
+</p>
+
+
+
+<br /><h2>Step 4 - Download and Install PHP Manager for IIS and the Rewrite Module</h2>
+<p>
+From the <a href="https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">Link to Downloads</a>, download the files 'PHPManagerForIIS_V1.5.0.msi' and 'rewrite_amd64_en-US.msi'. After they have been downloaded, install them both onto your virtual machine.
+</p>
+<p>
+<img src="https://imgur.com/Fmxk2TW.png" height="70%" width="70%" alt="Resources"/>
+</p>
+<p>
+<img src="https://imgur.com/Ir51bAt.png" height="70%" width="70%" alt="Resources"/>
+</p>
+<p>
+<img src="https://imgur.com/wMW5Jmk.png" height="70%" width="70%" alt="Resources"/>
+</p>
+
+
