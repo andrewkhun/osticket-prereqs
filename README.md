@@ -238,7 +238,36 @@ Enable the following extensions:
 
 
 <br /><h2>Step 10 - Rename ost-config.php and Assign Permissions</h2>
-
+<p>
+Navigate to 'C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php'. Rename the 'ost-sampleconfig.php' to 'ost-config.php'.
+</p>
+<p>
+<img src="https://imgur.com/FccMkNC.png" height="70%" width="70%" alt="Resources"/>
+</p>
+<p>
+Once the file has been renamed, right-click on 'ost-config.php' and go to 'Properties' then click 'Security', click on advance, and disable the inheritance to remove all inheritance permissions.
+</p>
+<p>
+<img src="https://imgur.com/i8jKtdF.png" height="70%" width="70%" alt="Resources"/>
+</p>
+<p>
+Next click 'Add', then 'Select a principal'. In the textbox, type 'everyone' and ensure all permissions are checked. Click 'OK', then 'Apply' and 'OK' again.
+</p>
+<p>
+<img src="https://imgur.com/c025Ek8.png" height="70%" width="70%" alt="Resources"/>
+</p>
+<p>
+<img src="https://imgur.com/O1VmwRF.png" height="70%" width="70%" alt="Resources"/>
+</p>
+<p>
+<img src="https://imgur.com/AKKetNf.png" height="70%" width="70%" alt="Resources"/>
+</p>
+<p>
+<img src="https://imgur.com/XqNgnPA.png" height="70%" width="70%" alt="Resources"/>
+</p>
+<p>
+<img src="https://imgur.com/8k31PH2.png" height="70%" width="70%" alt="Resources"/>
+</p>
 
 <br /><h2>Step 11 - Continue osTicket Setup</h2>
 
