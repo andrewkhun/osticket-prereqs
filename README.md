@@ -163,3 +163,29 @@ Locate the 'mysql-5.5.62-win32.msi' file and download it. Once downloaded Run th
 <img src="https://imgur.com/sz9tXMW.png" height="35%" width="35%" alt="Resources"/>
 </p>
 
+
+<br /><h2>Step 7 - Register PHP from within IIS</h2>
+<p>
+Now that we have the files downloaded and installed we will want to search for IIS in the Windows search bar. Open IIS as an administrator. Select the 'PHP Manager'
+</p>
+<p>
+<img src="https://imgur.com/WP7tgMH.png" height="70%" width="70%" alt="Resources"/>
+</p>
+<p>
+Select 'Register new PHP Version'
+</p>
+<p>
+<img src="https://imgur.com/BdvpC3A.png" height="70%" width="70%" alt="Resources"/>
+</p>
+<p>
+Provide a path to the php executable 'php-cgi.exe'. The file is located in our PHP directory 'C:\PHP'. After the file path has been selected, click 'OK'.
+</p>
+<p>
+<img src="https://imgur.com/OfcKCDT.png" height="70%" width="70%" alt="Resources"/>
+</p>
+<p>
+Once done, restart the IIS server.
+</p>
+<p>
+<img src="https://imgur.com/3yoQJba.png" height="70%" width="70%" alt="Resources"/>
+</p>
