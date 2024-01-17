@@ -46,6 +46,8 @@ Set up the virtual machine with Windows 10 Pro, version 22H2. For this particula
 </p>
 <br />
 
+
+
 <br /><h2>Step 2 - Remote Desktop to the Virtual Machine</h2>
 <p>
 Go to the newly created Virtual Machine in the Azure Portal locate the Public IP Address and copy it. On your local machine, open "Remote Desktop Connection" and input the copied IP address. Log in using the credentials set up during the VM creation.
@@ -59,6 +61,8 @@ Go to the newly created Virtual Machine in the Azure Portal locate the Public IP
 <p>
 <img src="https://imgur.com/TXHprkA.png" height="35%" width="35%" alt="Resources"/>
 </p>
+
+
 
 <br /><h2>Step 3 - Install / Enable IIS in Windows with CGI and Common HTTP Features</h2>
 <p>
@@ -111,15 +115,14 @@ From the <a href="https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZ
 </p>
 
 
+
+
 <br /><h2>Step 5 - Download and Install PHP 7.3.8</h2>
 <p>
 Locate the 'php-7.3.8-nts-Win32-VC15-x86.zip' file and download it. 
 
 !! ATTENTION !!
 If this appears, choose to “Keep” the file:
-</p>
-<p>
-<img src="https://imgur.com/B9yxJvO.png" height="35%" width="35%" alt="Resources"/>
 </p>
 <p>
 <img src="https://imgur.com/B9yxJvO.png" height="35%" width="35%" alt="Resources"/>
@@ -142,5 +145,21 @@ Next head into the C:\ directory, create a folder, and name it 'PHP'. Unzip the 
 
 <br /><h2>Step 6 - Download and Install MySQL5.5.62</h2>
 <p>
-Locate the 'mysql-5.5.62-win32.msi' file and download it. Once downloaded begin the installation process.
+Locate the 'mysql-5.5.62-win32.msi' file and download it. Once downloaded Run the setup wizard: Typical Setup -> Launch Configuration Wizard (after install) -> Standard Configuration -> make the root password 'Password1' and finally select 'Execute' and 'Finish' once complete.
 </p>
+<p>
+<img src="https://imgur.com/bonUtb3.png" height="35%" width="35%" alt="Resources"/>
+</p>
+<p>
+<img src="https://imgur.com/jU3gHJJ.png" height="35%" width="35%" alt="Resources"/>
+</p>
+<p>
+<img src="https://imgur.com/vDeMJak.png" height="35%" width="35%" alt="Resources"/>
+</p>
+<p>
+<img src="https://imgur.com/hdNKUYg.png" height="35%" width="35%" alt="Resources"/>
+</p>
+<p>
+<img src="https://imgur.com/sz9tXMW.png" height="35%" width="35%" alt="Resources"/>
+</p>
+
