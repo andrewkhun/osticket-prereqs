@@ -215,7 +215,26 @@ Once complete, go back into IIS and restart it once more. Navigate to sites -> D
 
 
 
-<br /><h2>Step 9 - Enable Extensions</h2>
+<br /><h2>Step 9 - Enable osTicket Extensions</h2>
+<p>
+To enable the necessary extensions, go back to the IIS manager, navigate to sites -> Default -> osTicket, then double click on 'PHP Manager'. Under 'PHP Extensions', click on 'Enable or disable an extension'.
+</p>
+<p>
+<img src="https://imgur.com/5UDDMoK.png" height="70%" width="70%" alt="Resources"/>
+</p>
+<p>
+<img src="https://imgur.com/dLDGji8.png" height="70%" width="70%" alt="Resources"/>
+</p>
+<p>
+Enable the following extensions:
+	
+- php_imap.dll
+- php_intl.dll
+- php_opcache.dll
+</p>
+<p>
+<img src="https://imgur.com/aKDapBY.png" height="70%" width="70%" alt="Resources"/>
+</p>
 
 
 <br /><h2>Step 10 - Rename ost-config.php and Assign Permissions</h2>
