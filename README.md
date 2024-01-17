@@ -93,18 +93,21 @@ Once all the correct checkboxes have been selected, click ok to apply the change
 
 
 
-<br /><h2>Step 4 - Download and Install PHP Manager for IIS and the Rewrite Module</h2>
+<br /><h2>Step 4 - Download and Install PHP Manager for IIS, the Rewrite Module, and Microsoft Visual C++ Redistributable</h2>
 <p>
-From the <a href="https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">Link to Downloads</a>, download the files 'PHPManagerForIIS_V1.5.0.msi' and 'rewrite_amd64_en-US.msi'. After they have been downloaded, install them both onto your virtual machine.
+From the <a href="https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">Link to Downloads</a>, download the files 'PHPManagerForIIS_V1.5.0.msi' and 'rewrite_amd64_en-US.msi'. After they have been downloaded, install both onto the virtual machine.
 </p>
 <p>
-<img src="https://imgur.com/Fmxk2TW.png" height="70%" width="70%" alt="Resources"/>
+<img src="https://imgur.com/ArPd1UX.png" height="70%" width="70%" alt="Resources"/>
 </p>
 <p>
 <img src="https://imgur.com/Ir51bAt.png" height="70%" width="70%" alt="Resources"/>
 </p>
 <p>
 <img src="https://imgur.com/wMW5Jmk.png" height="70%" width="70%" alt="Resources"/>
+</p>
+<p>
+<img src="https://imgur.com/wO0tn61.png" height="70%" width="70%" alt="Resources"/>
 </p>
 
 
