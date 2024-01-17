@@ -211,3 +211,24 @@ Once complete, go back into IIS and restart it once more. Navigate to sites -> D
 <p>
 <img src="https://imgur.com/8PG5ABd.png" height="70%" width="70%" alt="Resources"/>
 </p>
+
+
+
+
+<br /><h2>Step 9 - Enable Extensions</h2>
+
+
+<br /><h2>Step 10 - Rename ost-config.php and Assign Permissions</h2>
+
+
+<br /><h2>Step 11 - Continue osTicket Setup</h2>
+
+
+<br /><h2>Step 12 - Download and install HeidiSQL</h2>
+
+
+<br /><h2>Step 13 - Finish osTicket Setup</h2>
+
+
+<br /><h2>Step 14 - Clean Up</h2>
+
