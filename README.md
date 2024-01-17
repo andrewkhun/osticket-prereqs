@@ -189,3 +189,25 @@ Once done, restart the IIS server.
 <p>
 <img src="https://imgur.com/3yoQJba.png" height="70%" width="70%" alt="Resources"/>
 </p>
+
+
+
+<br /><h2>Step 8 - Download and install osTicket</h2>
+<p>
+Download the 'osTicket-v1.15.8' zip file. Once downloaded, extract the 'upload' folder within the zip file to the folder 'c:\inetpub\wwwroot'. Then rename the 'upload' folder to 'osTicket'.
+</p>
+<p>
+<img src="https://imgur.com/OaICJQD.png" height="70%" width="70%" alt="Resources"/>
+</p>
+<p>
+<img src="https://imgur.com/wNBcanU.png" height="70%" width="70%" alt="Resources"/>
+</p>
+<p>
+Once complete, go back into IIS and restart it once more. Navigate to sites -> Default -> osTicket, then on the right side of the IIS manager window, select 'Browse *:80'. This will open up your web browser and display the osTicket installer.
+</p>
+<p>
+<img src="https://imgur.com/dWxMo7h.png" height="70%" width="70%" alt="Resources"/>
+</p>
+<p>
+<img src="https://imgur.com/8PG5ABd.png" height="70%" width="70%" alt="Resources"/>
+</p>
