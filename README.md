@@ -235,6 +235,9 @@ Enable the following extensions:
 <p>
 <img src="https://imgur.com/aKDapBY.png" height="70%" width="70%" alt="Resources"/>
 </p>
+<p>
+Once done, refresh the osTicket installer and observe the changes. 
+</p>
 
 
 <br /><h2>Step 10 - Rename ost-config.php and Assign Permissions</h2>
